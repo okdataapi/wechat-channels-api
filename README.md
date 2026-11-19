@@ -2,7 +2,7 @@
 
 **视频号数据 API · 视频号视频搜索 · 视频号评论采集 · 视频号账号作品 · 视频号直播回放 · 视频号互动数据。**
 
-这个仓库是 [okdata](https://okdata.online/zh/?src=gh-wechat-channels-api) 的微信视频号接口示例：15 个接口在线可用，一个 API Key 调用，按次计费（$0.015 起），参数错误这类还没请求数据源就被拦下的调用不扣费。不用登录平台账号，不用 Cookie，不开浏览器，所以也不存在账号被风控的问题。
+这个仓库是 [okdata](https://okdata.online/zh/?src=gh-wechat-channels-api) 的微信视频号接口示例：15 个接口在线可用，一个 API Key 调用，按次计费（$0.015 起），不用订阅。不用登录平台账号，不用 Cookie，不开浏览器，所以也不存在账号被风控的问题。
 
 [免费注册拿 Key（送 $0.1 试用额度）](https://okdata.online/zh/signup/?src=gh-wechat-channels-api) · [全部接口文档](https://okdata.online/zh/apis/?src=gh-wechat-channels-api) · [接入 AI（MCP）](https://okdata.online/zh/mcp/?src=gh-wechat-channels-api)
 
@@ -22,9 +22,9 @@
 | [视频号账号合集](https://okdata.online/zh/apis/wechat_channels/users/collections/list/) | 视频号账号公开的全部合集，一次返回：名称、简介、封面、视频数和最近更新时间。合集的 id 传给 wechat_channels.collections.videos.list 取里面的视频。 | $0.02 / 次 | `GET /v1/wechat_channels/users/collections/list` |
 | [视频号合集视频](https://okdata.online/zh/apis/wechat_channels/collections/videos/list/) | 视频号合集里的视频，按合集自己的顺序（从最早的开始），每页 20 条：描述、账号、发布时间、点赞、评论、转发和收藏、时长。url 是视频文件地址（已加密，用同一次返回的 ext.decode_key 解密）。 | $0.02 / 次 | `GET /v1/wechat_channels/collections/videos/list` |
 | [视频号作品互动数据](https://okdata.online/zh/apis/wechat_channels/videos/metrics/) | 按作品 ID 取视频号作品最近的数字：点赞、评论、转发和收藏，带作品描述和发布账号。数字可能是几小时前的，ext.counted_at 写明取数时间。比取整个作品（wechat_channels.videos.get）便宜。 | $0.015 / 次 | `GET /v1/wechat_channels/videos/metrics` |
-| [视频号账号信息（备用版）（备用版）](https://okdata.online/zh/apis/wechat_channels/backup/users/get/) | wechat_channels.users.get 的备用版，另一来源：参数和返回相同，不给作品数。 | $0.03 / 次 | `GET /v1/wechat_channels/backup/users/get` |
-| [视频号账号作品（备用版）（备用版）](https://okdata.online/zh/apis/wechat_channels/backup/users/videos/list/) | wechat_channels.users.videos.list 的备用版，另一来源：参数和返回相同，每页 15 条（正在直播时第一条是直播）。 | $0.06 / 次 | `GET /v1/wechat_channels/backup/users/videos/list` |
-| [视频号视频搜索（备用版）（备用版）](https://okdata.online/zh/apis/wechat_channels/backup/videos/search/) | wechat_channels.videos.search 的备用版，另一来源：参数和返回相同，另带评论数和转发数（没有收藏数）。 | $0.15 / 次 | `GET /v1/wechat_channels/backup/videos/search` |
+| [视频号账号信息（备用版）（备用版）](https://okdata.online/zh/apis/wechat_channels/backup/users/get/) | wechat_channels.users.get 的备用版：参数和返回相同，不给作品数。 | $0.03 / 次 | `GET /v1/wechat_channels/backup/users/get` |
+| [视频号账号作品（备用版）（备用版）](https://okdata.online/zh/apis/wechat_channels/backup/users/videos/list/) | wechat_channels.users.videos.list 的备用版：参数和返回相同，每页 15 条（正在直播时第一条是直播）。 | $0.06 / 次 | `GET /v1/wechat_channels/backup/users/videos/list` |
+| [视频号视频搜索（备用版）（备用版）](https://okdata.online/zh/apis/wechat_channels/backup/videos/search/) | wechat_channels.videos.search 的备用版：参数和返回相同，另带评论数和转发数（没有收藏数）。 | $0.15 / 次 | `GET /v1/wechat_channels/backup/videos/search` |
 
 ## 快速开始
 
@@ -71,7 +71,7 @@ Cursor、Cherry Studio、WorkBuddy 等支持远程 MCP 的客户端：
 
 **要登录平台账号吗？** 不用。数据是公开内容，okdata 在服务端获取，你的账号完全不参与。
 
-**怎么收费？** 每个接口单独定价，表里写的就是一次调用的价格；按条计费的接口按实际返回条数算。请求到了数据源的调用，返回为空、查不到或出错也照常计费（按条计费的按 1 条算）；参数错误这类还没请求数据源就被拦下的不扣费。新账号送 $0.1 试用额度，之后按需充值，没有订阅。价格页：https://okdata.online/zh/pricing/
+**怎么收费？** 每个接口单独定价，表里写的就是一次调用的价格；按条计费的接口按实际返回条数算。新账号送 $0.1 试用额度，之后 $10 起充，余额不过期，没有订阅。价格页：https://okdata.online/zh/pricing/ ，计费说明：https://okdata.online/zh/docs/billing/
 
 **和官方开放平台有什么区别？** 官方开放平台只能读授权给你的账号自己的数据，而且要企业资质和审核；这里是平台上任何人都能看到的公开数据，比如搜索结果、别人的笔记或视频、评论、热榜。
 
