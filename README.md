@@ -42,6 +42,20 @@ Python 版在 [examples/quickstart.py](examples/quickstart.py)（只用标准库
 
 返回统一的结构：列表在 `data.items`，下一页用 `page.next_cursor` 传回 `cursor`，这次扣了多少钱在 `meta.billing.amount`，平台不提供的字段为 null 并在 `meta.unavailable` 里写明原因。
 
+### 真实输出（2026-11-22 实跑）
+
+`python3 examples/quickstart.py` 用 `query=露营装备推荐` 搜索，当天返回 10 条，作者名匿名化后是这样：
+
+```console
+export/UzFfBgAAxKynI…  以前我根本不碰露营，稀里糊涂被朋友带入坑，从此再无回头路。#露营 #露营装备
+export/UzFfBgAAxI2I…  （视频，描述为空）
+export/UzFfBgAAxKKjN…  露营五年，分享五个提升露营幸福感的装备 #露营 #露营装备
+本页花费 $0.02
+第 2 页 10 条，花费 $0.02
+```
+
+完整响应在 [examples/wechat_channels.videos.search.json](examples/wechat_channels.videos.search.json)（10 条，10 个 `export/` 加密 ID，带 `meta.unavailable` 写明平台不提供哪些字段）。把搜到的 `export/…` ID 传给 `wechat_channels.videos.get`，实跑拿到的数字作品 ID 和账号 ID 见 [examples/wechat_channels.videos.get.json](examples/wechat_channels.videos.get.json)。
+
 ## 让 AI 直接用（MCP）
 
 Claude Code：
