@@ -1,0 +1,56 @@
+{
+  "code": "ok",
+  "request_id": "5dad5b5e-9250-4b55-9e88-fee364b45efa",
+  "warnings": [],
+  "meta": {
+    "capability": "wechat_channels.videos.get",
+    "result_status": "complete",
+    "billing": {
+      "amount": "0.02",
+      "currency": "USD",
+      "balance_after": "9.469"
+    },
+    "unavailable": {
+      "metrics.views": "platform",
+      "metrics.reposts": "platform",
+      "author.username": "platform",
+      "author.followers": "capability",
+      "author.verified": "capability"
+    },
+    "cached": false,
+    "replayed": false,
+    "fetched_at": "2026-11-22T07:49:09.898Z"
+  },
+  "data": {
+    "item": {
+      "id": "15052403999635671672",
+      "url": "https://wxapp.tc.qq.com/251/20302/stodownload?…",
+      "type": "video",
+      "title": null,
+      "text": "以前我根本不碰露营，稀里糊涂被朋友带入坑，从此再无回头路。你们都是怎么入坑的？\n#露营\n#露营入坑\n#露营装备\n#户外露营\n#露营爱好者",
+      "lang": "zh",
+      "published_at": "2026-11-11T08:39:46.000Z",
+      "author": {
+        "id": "v2_060000231003b…@finder",
+        "name": "creator_a",
+        "avatar_url": null
+      },
+      "metrics": {
+        "likes": 1879,
+        "comments": 1505,
+        "shares": 10068,
+        "favorites": 5603
+      },
+      "images": [
+        "https://wxapp.tc.qq.com/251/20304/stodownload?…"
+      ],
+      "hashtags": [
+        "露营",
+        "露营入坑",
+        "露营装备",
+        "户外露营",
+        "露营爱好者"
+      ]
+    }
+  }
+}

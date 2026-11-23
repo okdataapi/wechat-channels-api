@@ -1,0 +1,254 @@
+{
+  "code": "ok",
+  "request_id": "9298456c-d34e-44af-b42f-241d226d19c6",
+  "warnings": [],
+  "meta": {
+    "capability": "wechat_channels.videos.search",
+    "result_status": "complete",
+    "billing": {
+      "amount": "0.02",
+      "currency": "USD",
+      "balance_after": "9.489"
+    },
+    "unavailable": {
+      "metrics.views": "platform",
+      "metrics.reposts": "platform",
+      "author.username": "platform",
+      "author.followers": "capability",
+      "author.verified": "capability",
+      "metrics.comments": "capability",
+      "metrics.shares": "capability",
+      "metrics.favorites": "capability",
+      "title": "platform",
+      "metrics.likes": "capability"
+    },
+    "cached": false,
+    "replayed": false,
+    "fetched_at": "2026-11-22T07:48:30.664Z"
+  },
+  "data": {
+    "items": [
+      {
+        "id": "export/UzFfBgAAxKynIBFsWWKXk8zT4DCKFUKI4ZkHEk3Vyl1xFxuESw",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "以前我根本不碰露营，稀里糊涂被朋友带入坑，从此再无回头路。你们都是怎么入坑的？\n#露营\n#露营入坑\n#露营装备\n#户外露营\n#露营爱好者",
+        "lang": "zh",
+        "published_at": "2026-11-11T08:39:46.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_a",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": [
+          "露营",
+          "露营入坑",
+          "露营装备",
+          "户外露营",
+          "露营爱好者"
+        ]
+      },
+      {
+        "id": "export/UzFfBgAAxI2IUB8MWXeQk8zT4DCKT23P5GRvj-gzUgK9s4DrRw",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "",
+        "lang": "zh",
+        "published_at": "2026-11-13T14:59:03.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_b",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": null
+      },
+      {
+        "id": "export/UzFfBgAAxKKjNHl3OXTpjMzT4DCK8e3Fob0j4w19PWMhJsng6w",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "露营五年，分享五个提升露营幸福感的装备#露营 #露营装备",
+        "lang": "zh",
+        "published_at": "2026-05-16T15:43:55.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_c",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": [
+          "露营",
+          "露营装备"
+        ]
+      },
+      {
+        "id": "export/UzFfBgAAxJOjfHYEJRmAjczT4DCKc2URMoDHYLxXl6DKARbTKg",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "露营装备怎么选最实用？这套齐全装备攻略告诉你答案！",
+        "lang": "zh",
+        "published_at": "2026-04-16T11:45:48.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_d",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": null
+      },
+      {
+        "id": "export/UzFfBgAAxIShFDsvBFizjczT4DCKuaRwzMnWp-iv_1cRtgwvTQ",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "户外露营，带这一套装备就完全够用了",
+        "lang": "zh",
+        "published_at": "2026-04-04T10:42:44.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_e",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": null
+      },
+      {
+        "id": "export/UzFfBgAAxNSEKE5wX2uXk8zT4DCKZ6wJaCvfVdyP8jj2PXVjjA",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "#户外黑科技 #卡式炉",
+        "lang": "zh",
+        "published_at": "2026-11-11T07:38:27.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_f",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": [
+          "户外黑科技",
+          "卡式炉"
+        ]
+      },
+      {
+        "id": "export/UzFfBgAAxIypZCx6XGCTk8zT4DCKuGyzCCz3iywctWSs293F2Q",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "四季观景南瓜帐篷速开帐篷客厅帐\n#露营 #客厅帐 #南瓜帐篷 #观景帐篷 #速开帐篷 #精致露营 #露营帐篷 #冬季露营 #冬季露营帐篷 #露营火锅 #露营装备 #户外露营 #冬季",
+        "lang": "zh",
+        "published_at": "2026-11-14T11:30:49.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_g",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": [
+          "露营",
+          "客厅帐",
+          "南瓜帐篷",
+          "观景帐篷",
+          "速开帐篷",
+          "精致露营",
+          "露营帐篷",
+          "冬季露营",
+          "冬季露营帐篷",
+          "露营火锅",
+          "露营装备",
+          "户外露营",
+          "冬季"
+        ]
+      },
+      {
+        "id": "export/UzFfBgAAxPynHBF9DSDOjMzT4DCKP9Xj-aQs20zS994EtcVG9Q",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "... 既是冰箱又是空调？ 培尔户外的三款宝藏装备，户外露营，从此就太方便了！",
+        "lang": "zh",
+        "published_at": "2026-06-10T04:41:45.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_h",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": null
+      },
+      {
+        "id": "export/UzFfAgtgekIEAQAAAAAAsooL5TaEawAAAAstQy6ubaLX4KHWvLEZgBPEzKdgIgNmYdGNzNPgMIoyC25eHv94NplTSILO2u8B",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "这些户外露营装备你换个搜索词#露营装备#户外露营#露营#避坑指南",
+        "lang": "zh",
+        "published_at": "2026-03-09T09:06:01.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_i",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": [
+          "露营装备",
+          "户外露营",
+          "露营",
+          "避坑指南"
+        ]
+      },
+      {
+        "id": "export/UzFfBgAAxNqHfGkeLEvcjMzT4DCKIU90g0f6sp2GlRjj6Zd3WA",
+        "url": "https://findermp.video.qq.com/251/20304/stodownload?…",
+        "type": "video",
+        "text": "从野餐垫到宿营车🏕️露营的尽头是破产\n#露营入坑全过程 #露营装备 #宿营车",
+        "lang": "zh",
+        "published_at": "2026-06-20T10:20:41.000Z",
+        "author": {
+          "id": "",
+          "name": "creator_j",
+          "avatar_url": "https://wx.qlogo.cn/finderhead/…"
+        },
+        "metrics": {},
+        "images": [
+          "https://findermp.video.qq.com/251/20304/stodownload?…"
+        ],
+        "hashtags": [
+          "露营入坑全过程",
+          "露营装备",
+          "宿营车"
+        ]
+      }
+    ]
+  },
+  "page": {
+    "next_cursor": "c1.xDQWvNqpqfzj22JXThG-ww",
+    "cursor_expires_at": "2026-11-23T07:48:30.664Z",
+    "has_more": true,
+    "returned": 10
+  }
+}
